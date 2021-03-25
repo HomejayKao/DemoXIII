@@ -9,6 +9,7 @@ import UIKit
 import Foundation
 import PhotosUI
 
+
 extension SignUpTableViewController:UIImagePickerControllerDelegate ,UINavigationControllerDelegate{
     
     //選照片
@@ -49,8 +50,11 @@ class SignUpTableViewController: UITableViewController {
     
     var selectedImage:UIImage?
 
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
     }
     
